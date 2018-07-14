@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.we.alejandroalcaraz.ballet">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Ballé"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBEH8qsa3MFI6DxWnYBUHoBck5d2afFXLA"
+            />
+        <activity android:name=".DriversActivity"></activity>
+        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".Parkings"></activity>
+        <activity android:name=".SignUp"></activity>
+        <activity android:name=".LogIn"></activity>
+        <activity android:name=".ServiceActivity"></activity>
+        <activity android:name=".OrderActivity"></activity>
+        <activity android:name=".PaymentOption"></activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

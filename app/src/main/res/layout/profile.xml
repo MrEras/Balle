@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#f5f5ef">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/perfil_icono"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#f5f5ef"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/name_lbl"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Nombre"
+                android:textSize="18dp"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Alejandro"
+                android:textSize="26dp"
+                android:textColor="#000000"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/phone_lbl"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Teléfono"
+                android:textSize="18dp"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/phone"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="449 204 41 20"
+                android:textSize="26dp"
+                android:textColor="#000000"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/mail_lbl"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Correo"
+                android:textSize="18dp"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/mail"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="moscosisi@gmail.com"
+                android:textSize="26dp"
+                android:textColor="#000000"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/car_lbl"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Carro"
+                android:textSize="18dp"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/car"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="March Rojo"
+                android:textSize="26dp"
+                android:textColor="#000000"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

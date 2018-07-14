@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "766897704306",
+    "firebase_url": "https://ballee-1b2d9.firebaseio.com",
+    "project_id": "ballee-1b2d9",
+    "storage_bucket": "ballee-1b2d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766897704306:android:e18c598d489d935a",
+        "android_client_info": {
+          "package_name": "com.example.alejandroalcaraz.ballet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766897704306-01d8oal4fvi5epjtglmji7g5v5irlunk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIlkShNwKVxqS_kCvtrWWvFacOAlA8ekw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766897704306:android:eb8b46ec8ed57be4",
+        "android_client_info": {
+          "package_name": "com.we.alejandroalcaraz.ballet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766897704306-01d8oal4fvi5epjtglmji7g5v5irlunk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIlkShNwKVxqS_kCvtrWWvFacOAlA8ekw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
